@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Finix</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light main-header sticky-top">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.png" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto our-primary-menu">
+          <li> <a href="#">Home <i class="fas fa-chevron-down"></i> </a>
+            <ul>
+              <li> <a href="#">Home One</a></li>
+              <li> <a href="http://sawftexltd.com/">Home Two</a></li>
+              <a href="https://www.thesitewizard.com/" target="_blank">thesitewizard.com</a>
+              <li> <a href="#">Home Three</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+
+            <ul>
+              <li> <a href="#"> About</a></li>
+              <li> <a href="#"> Team</a></li>
+              <li> <a href="#"> FAQ</a></li>
+              <li> <a href="#"> Gallery</a></li>
+              <li> <a href="#"> Loan Calculator</a></li>
+              <li> <a href="#"> Apply Now</a></li>
+              <li> <a href="#"> Testimonials</a></li>
+              <li> <a href="#"> Projects</a></li>
+              <li> <a href="#"> Sign In</a></li>
+              <li> <a href="#"> Sign Up</a></li>
+              <li> <a href="#"> Terms & Conditions</a></li>
+              <li> <a href="#"> Privacy Policy</a></li>
+              <li> <a href="#"> Error Page</a></li>
+              <li> <a href="#"> Contact</a></li>
+              
+            </ul>
+          </li>
+
+          <li> <a href="#">Services <i class="fas fa-chevron-down"></i> </a>
+
+            <ul>
+              <li><a href="#">Services</a> </li>
+              <li><a href="#">Services Details</a> </li>
+            </ul>
+          </li>
+
+          <li> <a href="#">Funding</a></li>
+          <li> <a href="#">Loans</a></li>
+          <li> <a href="#">News <i class="fas fa-chevron-down"></i> </a>
+            <ul>
+              <li> <a href="#">News </a></li>
+              <li> <a href="#">News Details </a></li>
+            </ul>
+
+          <li> <a href="#">Contact</a></li>
+        </ul>
+
+        <div class="Header-info d-flex align-items-center">
+
+          <div class="header-search">
+            <span><i class="fas fa-search"></i></span>
+          </div>
+
+          <div class="header-call clearfix">
+
+            <div class="header-call-icon float-left mr-3 h-100">
+              <span> <i class="fas fa-phone-volume"></i></span>
+            </div>
+
+            <div class="header-call-info">
+              <span class="d-block">Call Now</span>
+              <a class="d-block" href="tel:+8801758511730">+8801758511730</a>
+            </div>
+          </div>
+
+          <!-- Button -->
+          <div class="header-button">
+            <a href="#" class="btn btn-primary btn-lg">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+   <section class="header-breadcrumb">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <nav aria-label="breadcrumb" class="text-center">
+            <h2>Contact</h2>
+            <ol class="breadcrumb justify-content-center bg-transparent">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          </nav>    
+       </div>
+      </div>
+    </div>
+   </section>
+   <section class="contact-area ptb-100">
+    <div class="container">
+        <div class="section-title text-center py-5">
+            <span>Let's discuss</span>
+            <h2>Whatever question you have, please feel free to ask.</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="contact-form">
+                    <div class="title">
+                        <h3>Write Us</h3>
+                    </div>
+
+                    <form id="contactForm" novalidate="true">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group has-error">
+                                    <label>Name</label>
+                                    <input type="text" name="name" id="name" class="form-control" required="" data-error="Please enter your name">
+                                    <div class="help-block with-errors"><ul class="list-unstyled"><li>Please enter your name</li></ul></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group has-error">
+                                    <label>Email Address</label>
+                                    <input type="email" name="email" id="email" class="form-control" required="" data-error="Please enter your email">
+                                    <div class="help-block with-errors"><ul class="list-unstyled"><li>Please enter your email</li></ul></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="5" required="" data-error="Write your message"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 py-4">
+                                  <a href="#" class="btn btn-primary">Apply now</a>
+
+                                <div id="msgSubmit" class="h4 text-danger mt-4">Did you fill in the form properly?</div>
+                                <div class="clearfix"></div>
+
+
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="contact-side-box">
+                    <div class="title">
+                        <h3>Contact Finix</h3>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="icon">
+                            <i class="flaticon-clock"></i>
+                        </div>
+                        <h4>Working Hours</h4>
+                        <ul class="list">
+                            <li>
+                              Saturday – Thursday
+                                <span>10:00 AM - 5:00 PM</span>
+                            </li>
+                            <li>
+                                Friday
+                                <span>CLOSED</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="icon">
+                            <i class="flaticon-pin"></i>
+                        </div>
+                        <h4>Address</h4>
+                        <span><i class="fas fa-map-marker-alt" ></i> </span>
+                        <span>1208 Dhaka, Gazipur, Sreepur <br>Bangladesh</span>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="icon">
+                            <i class="flaticon-phone-call"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <span>
+                          <i class="fas fa-phone-volume" ></i> 
+                            <a href="tel:+88 01758511730">+88 01758511730</a>
+                        </span>
+
+                    </div>
+
+                    <div class="info-box">
+                        <div class="icon">
+                            <i class="flaticon-email"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <span>
+                          <span><i class="fas fa-envelope" ></i> </span>
+                            <a href="pronobcse67@gmail.com"></a>
+                        </span>
+                        <span>
+                            <a href="#">pronobcse67@gmail.com</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="map mt-5">
+  <div class="container">
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116450.8140388344!2d90.30242443084718!3d24.203699523076597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37567706a18f26d9%3A0xe8dbd9f66a074eb9!2sSAWFTEX!5e0!3m2!1sen!2sbd!4v1690275613009!5m2!1sen!2sbd" width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="footer">
+<div class="footer-top py-5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-3">
+        <div class="footer-widget">
+          <img src="./img/logo22.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="widget-social">
+            <ul>
+              <li> <span>Follow us : </span></li>
+              <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li> <a href="#"><i class="fab fa-instagram-square"></i></a></li>
+              <li> <a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li> <a href="#"><i class="fab fa-youtube"></i></a></li>
+              <li> <a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+<div class="col-lg-3">
+  <div class="footer-widget">
+  <h3>Quick Links</h3>
+  <ul>
+    <li> <a href="">About</a></li>
+    <li> <a href="">Our Performance</a></li>
+    <li> <a href="">Help (FAQ)</a></li>
+    <li> <a href="">Blog</a></li>
+    <li> <a href="">Contact</a></li>
+  </ul>
+  </div>
+</div>
+<div class="col-lg-3">
+  <div class="footer-widget">
+  <h3>Other Resources</h3>
+   <ul>
+    <li> <a href="">Support</a></li>
+    <li> <a href="">Privacy Policy</a></li>
+    <li> <a href="">Terms of Service</a></li>
+    <li> <a href="">Business Loanst</a></li>
+    <li> <a href="">Loan Services</a></li>
+   </ul>
+  </div>
+</div>
+  <div class="col-lg-3">
+    <div class="footer-widget">
+    <h3>Contact Us</h3>
+    <div class="footer-contact">
+
+        <div class="footer-contact-item d-flex">
+        <span><i class="fas fa-map-marker-alt" ></i> </span>
+    <a href="">Dhaka, Gazipur, Sreepur</a>
+    </div>
+
+
+  <div class="footer-contact-item d-flex">
+    <span><i class="fas fa-envelope" ></i> </span>
+     <a href="pronobcse67@gmail.com">pronobcse67@gmail.com</a>
+</div>
+
+<div class="footer-contact-item d-flex">
+  <span><i class="fas fa-phone-volume" ></i> </span>
+   <a href="tel:+88 01758 511730">+880 1758 511730</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+  
+
+  <div class="footer-botton text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer-copyright">
+            <p>Copyright @2023 Finix. Designed By <a href="#"> PronoB-GhosH</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+  
+
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
